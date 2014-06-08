@@ -1,0 +1,62 @@
+@import url("mixins.less");
+
+// @lightblue:#B4CCB9;
+// @blue:#2BACB5;
+// @red:#E84D5B;
+// @black:#3B3B3B;
+// @white:#F5ECD9;
+
+@green:#63732D;
+@black:#21211F;
+@bluegreen:#214D47;
+@lightbluegreen:lighten(#214D47,10%);
+@red:#9C442C;
+@lightred:#CC6835;
+
+
+                /*font-family: 'Give You Glory', cursive;
+                font-family: 'Codystar', cursive;
+                font-family: 'Sigmar One', cursive;*/
+
+
+*{padding:0;margin:0;}
+html,body{
+    // background: url('../../images/geometry.png') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-color:lighten(@black,70%);
+    
+}
+
+
+.navbar{
+	background-color: @bluegreen;
+	border-radius:0px;
+	border:none;
+	text-shadow:none;
+	box-shadow: none;
+    height:15px;
+}
+
+
+.btn-primary{
+    background-color: @bluegreen;
+    border:none;
+    &:hover{
+        background-color: darken(@bluegreen,5%);
+    }
+}
+
+
+.botstyle{
+    position:relative;
+    
+  background-color: @lightbluegreen;
+  h3{
+    text-shadow:1px 1px 1px darker(@bluegreen,60%);
+    color:#fff;    
+  }
+  
+}

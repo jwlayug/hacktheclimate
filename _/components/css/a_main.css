@@ -1,0 +1,82 @@
+/*font-family: 'Give You Glory', cursive;
+                font-family: 'Codystar', cursive;
+                font-family: 'Sigmar One', cursive;*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  background: url('../../images/geometry.png') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Alice', sans-serif;
+}
+.navbar {
+  background-color: #3b3b3b;
+  border-radius: 0px;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  height: 15px;
+}
+.wrapper {
+  margin-top: 20px;
+}
+.wrapper .left {
+  height: 500px;
+}
+.wrapper .right {
+  padding: 5px;
+}
+.wrapper .right .title {
+  font-family: 'Finger Paint', cursive;
+  background-color: green;
+  padding: 5px 12px;
+  font-size: 3em;
+  border-radius: 15px;
+  text-shadow: 1px 1px 1px #3b3b3b;
+  color: #f5ecd9;
+}
+.wrapper .right .title:hover {
+  text-decoration: none;
+}
+.wrapper .right .title-body {
+  margin-top: 8px;
+  padding: 5px;
+}
+.wrapper .right .title-body .name {
+  font-family: 'Covered By Your Grace', cursive;
+  border-radius: 15px;
+  padding: 8px  12px;
+  font-size: 1.8em;
+  background-color: #3b3b3b;
+  color: #b4ccb9;
+  box-shadow: 1px 2px 5px #333;
+  text-shadow: 1px 1px 1px #000;
+}
+.wrapper .right .title-body .aboutme {
+  margin-top: 5px;
+  padding: 8px 12px;
+  font-size: 1.2em;
+  background-color: #e84d5b;
+  border-radius: 15px;
+  color: #f5ecd9;
+  box-shadow: 1px 2px 5px #333;
+  text-shadow: 1px 1px 1px #a11521;
+}
+.wrapper .right .title-body .myResume {
+  margin: 10px;
+}
+.wrapper .right .title-body .myResume .btn {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.wrapper .right .title-body .myResume .btn span {
+  color: #f5ecd9;
+  text-shadow: 1px 1px 1px #000000;
+}
+.wrapper .right .title-body .myResume .btn:hover {
+  background-color: #3b3b3b;
+}

@@ -1,0 +1,38 @@
+/*font-family: 'Give You Glory', cursive;
+                font-family: 'Codystar', cursive;
+                font-family: 'Sigmar One', cursive;*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #d4d4d1;
+}
+.navbar {
+  background-color: #214d47;
+  border-radius: 0px;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  height: 15px;
+}
+.btn-primary {
+  background-color: #214d47;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #193b37;
+}
+.botstyle {
+  position: relative;
+  background-color: #307168;
+}
+.botstyle h3 {
+  text-shadow: 1px 1px 1px darker(#214d47, 60%);
+  color: #fff;
+}
